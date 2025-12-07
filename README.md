@@ -90,8 +90,8 @@ PDF Generation: HTML + Print API
 
 ### Step 1: Create Vite Project
 ```bash
-npm create vite@latest 
-
+npm create vite@latest scholar -- --template react
+cd scholar
 ```
 
 ### Step 2: Install Dependencies
@@ -116,11 +116,13 @@ export default defineConfig({
      tailwindcss(),
     ],
 })
+
 ```
 
 ### Step 5: Add Tailwind Directives (src/index.css)
 ```css
 @import "tailwindcss";
+
 ```
 
 ### Step 6: Copy the Application Code
@@ -225,8 +227,8 @@ The application will be available at `http://localhost:5173`
   - Last updated date
   - System information
 
-
 ---
+
 
 ## 🔒 Security Features
 
@@ -239,30 +241,7 @@ The application will be available at `http://localhost:5173`
 
 ---
 
-## 🐛 Troubleshooting
 
-### Issue: Data not persisting
-**Solution**: Check browser's localStorage is enabled. Clear cache and reload.
-
-### Issue: PDF not downloading
-**Solution**: Ensure pop-ups are not blocked. Use the print preview to save as PDF.
-
-### Issue: Teacher can see other teacher's data
-**Solution**: Clear localStorage and re-login.
-
-### Issue: Admin login not working
-**Solution**: Verify credentials are exactly: `admin@scholar.com` / `admin123`
-
----
-
-## 📱 Responsive Design
-
-The application is fully responsive:
-- **Mobile (320px+)**: Single column layout
-- **Tablet (768px+)**: Two column layout
-- **Desktop (1024px+)**: Three column layout with sidebar
-
----
 
 ## ⚡ Performance Optimization
 
@@ -274,27 +253,6 @@ The application is fully responsive:
 
 ---
 
-## 📋 Browser Support
-
-- ✅ Chrome (latest)
-- ✅ Firefox (latest)
-- ✅ Safari (latest)
-- ✅ Edge (latest)
-- ✅ Mobile browsers
-
----
-
-## 🚀 Deployment
-
-### Build for Production
-```bash
-npm run build
-```
-
-### Preview Build
-```bash
-npm run preview
-```
 
 ## 📝 Project Structure
 
@@ -313,7 +271,7 @@ scholar/
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Feel free to fork, modify, and enhance this project!
 
@@ -334,11 +292,3 @@ Feel free to fork, modify, and enhance this project!
 This project is open-source and available under the MIT License.
 
 
----
-
-## 🎉 Thank You!
-
-Thank you for using Scholar! We hope this system helps you manage student records efficiently.
-
- 
- 
