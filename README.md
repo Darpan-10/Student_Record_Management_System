@@ -340,7 +340,5 @@ This project is open-source and available under the MIT License.
 
 Thank you for using Scholar! We hope this system helps you manage student records efficiently.
 
-
-#   S t u d e n t _ R e c o r d _ M a n a g e m e n t _ S y s t e m 
  
  
